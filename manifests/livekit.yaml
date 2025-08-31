@@ -239,7 +239,7 @@ spec:
               name: livekit-agents-secrets
               key: LIVEKIT_API_SECRET
         ports:
-        - containerPort: 80
+        - containerPort: 3000
         volumeMounts:
         - name: env-file
           mountPath: /app/.env.local
